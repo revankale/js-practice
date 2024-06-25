@@ -13,7 +13,7 @@ const id = Symbol('123');
 
 const anotherId = Symbol('123');
 
-console.log(id === anotherId );
+// console.log(id === anotherId );
 
 // const bigNumber = 124848435835n
 
@@ -31,7 +31,34 @@ let myObj = {
 }
 
 const myFuction = function(){
-    console.log("hello world");
+    // console.log("hello world");
 }
 
-console.log(typeof scoreValue);
+// console.log(typeof scoreValue);
+
+//***************************************************************** */
+
+// memory type 
+
+// stack (primitive) , Heap(non-primitive)
+
+let myYoutubeChannel = "revankale";
+
+let anotherName = myYoutubeChannel;
+
+anotherName = "chai or code"
+
+console.log(anotherName);
+console.log(myYoutubeChannel);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "userUpi@ybi"
+}
+
+let userTwo = userOne;
+
+ userTwo.email = "revankale@gmail.com";
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
